@@ -24,6 +24,7 @@ weatherButton.addEventListener("click", () => {
                 <p>Condition: ${weather[0].description}</p>
             `;
         })
+
         .catch((error) => {
             resultDiv.textContent = error.message;
         });
